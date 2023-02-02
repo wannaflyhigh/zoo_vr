@@ -12123,7 +12123,7 @@ GameObject:
   - component: {fileID: 1368228594}
   - component: {fileID: 1368228593}
   m_Layer: 5
-  m_Name: Canvas InformationPoint
+  m_Name: Canvas Point
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
