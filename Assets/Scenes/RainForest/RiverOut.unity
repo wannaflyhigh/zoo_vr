@@ -17765,8 +17765,9 @@ GameObject:
   - component: {fileID: 1744757671}
   - component: {fileID: 1744757670}
   - component: {fileID: 1744757669}
+  - component: {fileID: 1744757673}
   m_Layer: 5
-  m_Name: Button_Information3
+  m_Name: Button_Information3_Puzzle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -17900,6 +17901,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1744757667}
   m_CullTransparentMesh: 1
+--- !u!114 &1744757673
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1744757667}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 021a4f6b03adab24c8f7de01b0479ff9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1767846739
 GameObject:
   m_ObjectHideFlags: 0
