@@ -6,22 +6,31 @@ public class StickerModeStickers : MonoBehaviour
 {
     string key = "stickerMode";
 
-    public string id;
+    void Awake()
+    {
+        for (int i = 1; i <= 33; i++)
+        {
+            if (PlayerPrefs.GetInt(key + i) == 1)
+            {
+                try
+                {
+                    transform
+                        .Find("Image_Sticker" + i)
+                        .gameObject
+                        .SetActive(true);
+                }
+                catch (System.Exception)
+                {
+                    // throw;
+                }
+            }
+        }
+    }
 
     // Start is called before the first frame update
     void Start()
     {
-        int value = PlayerPrefs.GetInt(key + id);
-        if (value == 1)
-        {
-            this.gameObject.SetActive(true);
-        }
-        else
-        {
-            this.gameObject.SetActive(false);
-        }
     }
-
     // Update is called once per frame
     void Update()
     {

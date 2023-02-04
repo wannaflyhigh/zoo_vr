@@ -1498,7 +1498,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 70bf1d10caaf0f34e8f877b80c6795e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  id: 5
 --- !u!1 &82872376
 GameObject:
   m_ObjectHideFlags: 0
@@ -1761,6 +1760,7 @@ GameObject:
   - component: {fileID: 107176613}
   - component: {fileID: 107176615}
   - component: {fileID: 107176614}
+  - component: {fileID: 107176616}
   m_Layer: 5
   m_Name: Panel_StickerBackground2
   m_TagString: Untagged
@@ -1839,6 +1839,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 107176612}
   m_CullTransparentMesh: 1
+--- !u!114 &107176616
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 107176612}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70bf1d10caaf0f34e8f877b80c6795e2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &108186531
 GameObject:
   m_ObjectHideFlags: 0
@@ -2744,7 +2756,7 @@ GameObject:
   - component: {fileID: 153821009}
   - component: {fileID: 153821011}
   m_Layer: 5
-  m_Name: Image_Sticker8
+  m_Name: Image_Sticker25
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2819,7 +2831,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 70bf1d10caaf0f34e8f877b80c6795e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  id: 25
 --- !u!1 &155821056
 GameObject:
   m_ObjectHideFlags: 0
@@ -5077,7 +5088,7 @@ GameObject:
   - component: {fileID: 333354397}
   - component: {fileID: 333354399}
   m_Layer: 5
-  m_Name: Image_Sticker6
+  m_Name: Image_Sticker12
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5152,7 +5163,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 70bf1d10caaf0f34e8f877b80c6795e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  id: 12
 --- !u!1 &334020475
 GameObject:
   m_ObjectHideFlags: 0
@@ -5314,7 +5324,7 @@ GameObject:
   - component: {fileID: 341949770}
   - component: {fileID: 341949772}
   m_Layer: 5
-  m_Name: Image_Sticker4
+  m_Name: Image_Sticker26
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5389,7 +5399,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 70bf1d10caaf0f34e8f877b80c6795e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  id: 26
 --- !u!1 &346699168
 GameObject:
   m_ObjectHideFlags: 0
@@ -5697,7 +5706,7 @@ GameObject:
   - component: {fileID: 350059939}
   - component: {fileID: 350059941}
   m_Layer: 5
-  m_Name: Image_Sticker3
+  m_Name: Image_Sticker27
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5772,7 +5781,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 70bf1d10caaf0f34e8f877b80c6795e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  id: 27
 --- !u!1 &353223199
 GameObject:
   m_ObjectHideFlags: 0
@@ -6804,7 +6812,7 @@ GameObject:
   - component: {fileID: 442038730}
   - component: {fileID: 442038732}
   m_Layer: 5
-  m_Name: Image_Sticker6
+  m_Name: Image_Sticker24
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6879,7 +6887,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 70bf1d10caaf0f34e8f877b80c6795e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  id: 24
 --- !u!1 &452119332
 GameObject:
   m_ObjectHideFlags: 0
@@ -8416,7 +8423,7 @@ GameObject:
   - component: {fileID: 591347828}
   - component: {fileID: 591347830}
   m_Layer: 5
-  m_Name: Image_Sticker3
+  m_Name: Image_Sticker21
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8491,7 +8498,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 70bf1d10caaf0f34e8f877b80c6795e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  id: 21
 --- !u!1 &594807569
 GameObject:
   m_ObjectHideFlags: 0
@@ -9254,7 +9260,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 70bf1d10caaf0f34e8f877b80c6795e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  id: 2
 --- !u!1 &670728843
 GameObject:
   m_ObjectHideFlags: 0
@@ -9268,7 +9273,7 @@ GameObject:
   - component: {fileID: 670728845}
   - component: {fileID: 670728847}
   m_Layer: 5
-  m_Name: Image_Sticker2
+  m_Name: Image_Sticker20
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9343,7 +9348,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 70bf1d10caaf0f34e8f877b80c6795e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  id: 20
 --- !u!1 &672830383
 GameObject:
   m_ObjectHideFlags: 0
@@ -10616,7 +10620,7 @@ GameObject:
   - component: {fileID: 746039813}
   - component: {fileID: 746039815}
   m_Layer: 5
-  m_Name: Image_Sticker4
+  m_Name: Image_Sticker23
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10691,7 +10695,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 70bf1d10caaf0f34e8f877b80c6795e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  id: 23
 --- !u!1 &750606244
 GameObject:
   m_ObjectHideFlags: 0
@@ -11165,7 +11168,7 @@ GameObject:
   - component: {fileID: 767245658}
   - component: {fileID: 767245660}
   m_Layer: 5
-  m_Name: Image_Sticker5
+  m_Name: Image_Sticker22
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -11240,7 +11243,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 70bf1d10caaf0f34e8f877b80c6795e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  id: 22
 --- !u!1 &767722079
 GameObject:
   m_ObjectHideFlags: 0
@@ -11402,7 +11404,7 @@ GameObject:
   - component: {fileID: 770571733}
   - component: {fileID: 770571735}
   m_Layer: 5
-  m_Name: Image_Sticker5
+  m_Name: Image_Sticker18
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -11477,7 +11479,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 70bf1d10caaf0f34e8f877b80c6795e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  id: 18
 --- !u!1 &777296459
 GameObject:
   m_ObjectHideFlags: 0
@@ -11589,6 +11590,7 @@ GameObject:
   - component: {fileID: 787235403}
   - component: {fileID: 787235402}
   - component: {fileID: 787235401}
+  - component: {fileID: 787235404}
   m_Layer: 5
   m_Name: Panel_StickerBackground4
   m_TagString: Untagged
@@ -11667,6 +11669,18 @@ RectTransform:
   m_AnchoredPosition: {x: -9, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &787235404
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 787235400}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70bf1d10caaf0f34e8f877b80c6795e2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &799444621
 GameObject:
   m_ObjectHideFlags: 0
@@ -11803,7 +11817,7 @@ GameObject:
   - component: {fileID: 807301408}
   - component: {fileID: 807301410}
   m_Layer: 5
-  m_Name: Image_Sticker2
+  m_Name: Image_Sticker32
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -11878,7 +11892,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 70bf1d10caaf0f34e8f877b80c6795e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  id: 32
 --- !u!1 &816972501
 GameObject:
   m_ObjectHideFlags: 0
@@ -11892,7 +11905,7 @@ GameObject:
   - component: {fileID: 816972503}
   - component: {fileID: 816972505}
   m_Layer: 5
-  m_Name: Image_Sticker9
+  m_Name: Image_Sticker33
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -11967,7 +11980,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 70bf1d10caaf0f34e8f877b80c6795e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  id: 33
 --- !u!1 &847468006
 GameObject:
   m_ObjectHideFlags: 0
@@ -12747,7 +12759,7 @@ GameObject:
   - component: {fileID: 875790454}
   - component: {fileID: 875790456}
   m_Layer: 5
-  m_Name: Image_Sticker2
+  m_Name: Image_Sticker8
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -12822,7 +12834,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 70bf1d10caaf0f34e8f877b80c6795e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  id: 8
 --- !u!1 &877424408
 GameObject:
   m_ObjectHideFlags: 0
@@ -13522,7 +13533,7 @@ GameObject:
   - component: {fileID: 929069003}
   - component: {fileID: 929069005}
   m_Layer: 5
-  m_Name: Image_Sticker4
+  m_Name: Image_Sticker14
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -13597,7 +13608,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 70bf1d10caaf0f34e8f877b80c6795e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  id: 14
 --- !u!1 &936692872
 GameObject:
   m_ObjectHideFlags: 0
@@ -14096,7 +14106,7 @@ GameObject:
   - component: {fileID: 968958835}
   - component: {fileID: 968958837}
   m_Layer: 5
-  m_Name: Image_Sticker2
+  m_Name: Image_Sticker13
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -14171,7 +14181,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 70bf1d10caaf0f34e8f877b80c6795e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  id: 13
 --- !u!1 &972147029
 GameObject:
   m_ObjectHideFlags: 0
@@ -14332,7 +14341,7 @@ GameObject:
   - component: {fileID: 974110682}
   - component: {fileID: 974110684}
   m_Layer: 5
-  m_Name: Image_Sticker1
+  m_Name: Image_Sticker7
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -14407,7 +14416,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 70bf1d10caaf0f34e8f877b80c6795e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  id: 7
 --- !u!1 &976096151
 GameObject:
   m_ObjectHideFlags: 0
@@ -14500,7 +14508,7 @@ GameObject:
   - component: {fileID: 976481349}
   - component: {fileID: 976481351}
   m_Layer: 5
-  m_Name: Image_Sticker7
+  m_Name: Image_Sticker28
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -14575,7 +14583,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 70bf1d10caaf0f34e8f877b80c6795e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  id: 28
 --- !u!1 &985261982
 GameObject:
   m_ObjectHideFlags: 0
@@ -15287,7 +15294,7 @@ GameObject:
   - component: {fileID: 1021244468}
   - component: {fileID: 1021244470}
   m_Layer: 5
-  m_Name: Image_Sticker4
+  m_Name: Image_Sticker10
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -15362,7 +15369,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 70bf1d10caaf0f34e8f877b80c6795e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  id: 10
 --- !u!1 &1029478855
 GameObject:
   m_ObjectHideFlags: 0
@@ -15526,7 +15532,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 70bf1d10caaf0f34e8f877b80c6795e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  id: 3
 --- !u!1 &1037910380
 GameObject:
   m_ObjectHideFlags: 0
@@ -15742,7 +15747,7 @@ GameObject:
   - component: {fileID: 1083542375}
   - component: {fileID: 1083542377}
   m_Layer: 5
-  m_Name: Image_Sticker5
+  m_Name: Image_Sticker31
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -15817,7 +15822,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 70bf1d10caaf0f34e8f877b80c6795e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  id: 31
 --- !u!1 &1090041658
 GameObject:
   m_ObjectHideFlags: 0
@@ -15831,7 +15835,7 @@ GameObject:
   - component: {fileID: 1090041660}
   - component: {fileID: 1090041662}
   m_Layer: 5
-  m_Name: Image_Sticker6
+  m_Name: Image_Sticker30
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -15906,7 +15910,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 70bf1d10caaf0f34e8f877b80c6795e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  id: 30
 --- !u!1 &1091540845
 GameObject:
   m_ObjectHideFlags: 0
@@ -16972,6 +16975,7 @@ GameObject:
   - component: {fileID: 1167839347}
   - component: {fileID: 1167839349}
   - component: {fileID: 1167839348}
+  - component: {fileID: 1167839350}
   m_Layer: 5
   m_Name: Panel_StickerBackground5
   m_TagString: Untagged
@@ -17055,6 +17059,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1167839346}
   m_CullTransparentMesh: 1
+--- !u!114 &1167839350
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1167839346}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70bf1d10caaf0f34e8f877b80c6795e2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1178947308
 GameObject:
   m_ObjectHideFlags: 0
@@ -18755,7 +18771,7 @@ GameObject:
   - component: {fileID: 1339424767}
   - component: {fileID: 1339424769}
   m_Layer: 5
-  m_Name: Image_Sticker1
+  m_Name: Image_Sticker29
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -18830,7 +18846,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 70bf1d10caaf0f34e8f877b80c6795e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  id: 29
 --- !u!1 &1345771002
 GameObject:
   m_ObjectHideFlags: 0
@@ -18844,7 +18859,7 @@ GameObject:
   - component: {fileID: 1345771004}
   - component: {fileID: 1345771006}
   m_Layer: 5
-  m_Name: Image_Sticker6
+  m_Name: Image_Sticker4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -18919,7 +18934,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 70bf1d10caaf0f34e8f877b80c6795e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  id: 4
 --- !u!1 &1353594778
 GameObject:
   m_ObjectHideFlags: 0
@@ -20047,6 +20061,7 @@ GameObject:
   - component: {fileID: 1416485386}
   - component: {fileID: 1416485388}
   - component: {fileID: 1416485387}
+  - component: {fileID: 1416485389}
   m_Layer: 5
   m_Name: Panel_StickerBackground1
   m_TagString: Untagged
@@ -20124,6 +20139,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1416485385}
   m_CullTransparentMesh: 1
+--- !u!114 &1416485389
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1416485385}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70bf1d10caaf0f34e8f877b80c6795e2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1418708001
 GameObject:
   m_ObjectHideFlags: 0
@@ -22245,7 +22272,7 @@ GameObject:
   - component: {fileID: 1539073849}
   - component: {fileID: 1539073851}
   m_Layer: 5
-  m_Name: Image_Sticker6
+  m_Name: Image_Sticker15
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -22320,7 +22347,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 70bf1d10caaf0f34e8f877b80c6795e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  id: 15
 --- !u!1 &1544597884
 GameObject:
   m_ObjectHideFlags: 0
@@ -23126,7 +23152,7 @@ GameObject:
   - component: {fileID: 1610233487}
   - component: {fileID: 1610233489}
   m_Layer: 5
-  m_Name: Image_Sticker5
+  m_Name: Image_Sticker11
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -23201,7 +23227,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 70bf1d10caaf0f34e8f877b80c6795e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  id: 11
 --- !u!1 &1617072916
 GameObject:
   m_ObjectHideFlags: 0
@@ -25268,7 +25293,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 70bf1d10caaf0f34e8f877b80c6795e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  id: 1
 --- !u!1 &1788512329
 GameObject:
   m_ObjectHideFlags: 0
@@ -25359,6 +25383,7 @@ GameObject:
   - component: {fileID: 1795934645}
   - component: {fileID: 1795934644}
   - component: {fileID: 1795934643}
+  - component: {fileID: 1795934646}
   m_Layer: 5
   m_Name: Panel_StickerBackground3
   m_TagString: Untagged
@@ -25437,6 +25462,18 @@ RectTransform:
   m_AnchoredPosition: {x: -9, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1795934646
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1795934642}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70bf1d10caaf0f34e8f877b80c6795e2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1801368236
 GameObject:
   m_ObjectHideFlags: 0
@@ -25597,7 +25634,7 @@ GameObject:
   - component: {fileID: 1802934636}
   - component: {fileID: 1802934638}
   m_Layer: 5
-  m_Name: Image_Sticker3
+  m_Name: Image_Sticker17
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -25672,7 +25709,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 70bf1d10caaf0f34e8f877b80c6795e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  id: 17
 --- !u!1 &1805158624
 GameObject:
   m_ObjectHideFlags: 0
@@ -27089,7 +27125,7 @@ GameObject:
   - component: {fileID: 1884622814}
   - component: {fileID: 1884622816}
   m_Layer: 5
-  m_Name: Image_Sticker1
+  m_Name: Image_Sticker16
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -27164,7 +27200,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 70bf1d10caaf0f34e8f877b80c6795e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  id: 16
 --- !u!1 &1913089580
 GameObject:
   m_ObjectHideFlags: 0
@@ -29405,7 +29440,7 @@ GameObject:
   - component: {fileID: 2060319936}
   - component: {fileID: 2060319938}
   m_Layer: 5
-  m_Name: Image_Sticker3
+  m_Name: Image_Sticker9
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -29480,7 +29515,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 70bf1d10caaf0f34e8f877b80c6795e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  id: 9
 --- !u!1 &2067311722
 GameObject:
   m_ObjectHideFlags: 0
@@ -30097,7 +30131,7 @@ GameObject:
   - component: {fileID: 2117374944}
   - component: {fileID: 2117374946}
   m_Layer: 5
-  m_Name: Image_Sticker1
+  m_Name: Image_Sticker19
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -30172,7 +30206,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 70bf1d10caaf0f34e8f877b80c6795e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  id: 19
 --- !u!1 &2120154179
 GameObject:
   m_ObjectHideFlags: 0
@@ -30340,7 +30373,7 @@ GameObject:
   - component: {fileID: 2138982356}
   - component: {fileID: 2138982358}
   m_Layer: 5
-  m_Name: Image_Sticker4
+  m_Name: Image_Sticker6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -30415,4 +30448,3 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 70bf1d10caaf0f34e8f877b80c6795e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  id: 6
