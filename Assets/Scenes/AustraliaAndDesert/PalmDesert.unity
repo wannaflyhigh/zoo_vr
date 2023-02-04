@@ -4846,6 +4846,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 432674594}
+        m_TargetAssemblyTypeName: StickerModeObject, Assembly-CSharp
+        m_MethodName: getSticker
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &432674592
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4896,6 +4908,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7e5f06f6b22b99948bb091a337b4e508, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  id: 29
 --- !u!1 &434888939
 GameObject:
   m_ObjectHideFlags: 0
@@ -11482,8 +11495,9 @@ GameObject:
   - component: {fileID: 1093741427}
   - component: {fileID: 1093741426}
   - component: {fileID: 1093741425}
+  - component: {fileID: 1093741429}
   m_Layer: 5
-  m_Name: Button_Information5
+  m_Name: Button_Information5_Sticker
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -11579,6 +11593,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1093741429}
+        m_TargetAssemblyTypeName: StickerModeObject, Assembly-CSharp
+        m_MethodName: getSticker
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1093741427
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11617,6 +11643,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1093741423}
   m_CullTransparentMesh: 1
+--- !u!114 &1093741429
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1093741423}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7e5f06f6b22b99948bb091a337b4e508, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: 10
 --- !u!1 &1113986997
 GameObject:
   m_ObjectHideFlags: 0
@@ -13950,8 +13989,9 @@ GameObject:
   - component: {fileID: 1365421835}
   - component: {fileID: 1365421834}
   - component: {fileID: 1365421833}
+  - component: {fileID: 1365421837}
   m_Layer: 5
-  m_Name: Button_Information3
+  m_Name: Button_Information3_Sticker
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -14047,6 +14087,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1365421837}
+        m_TargetAssemblyTypeName: StickerModeObject, Assembly-CSharp
+        m_MethodName: getSticker
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1365421835
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14085,6 +14137,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1365421831}
   m_CullTransparentMesh: 1
+--- !u!114 &1365421837
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1365421831}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7e5f06f6b22b99948bb091a337b4e508, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: 11
 --- !u!1 &1375570400
 GameObject:
   m_ObjectHideFlags: 0
