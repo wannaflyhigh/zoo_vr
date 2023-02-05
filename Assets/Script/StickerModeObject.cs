@@ -44,7 +44,7 @@ public class StickerModeObject : MonoBehaviour
         if (PlayerPrefs.GetInt(key + id) == 1) return;
 
         PlayerPrefs.SetInt(key + id, 1);
-        countDown = 1000;
+        countDown = 350;
         notifyOnGet.SetActive(true);
     }
 }
