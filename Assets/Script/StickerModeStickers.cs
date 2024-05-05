@@ -6,8 +6,9 @@ public class StickerModeStickers : MonoBehaviour
 {
     string key = "stickerMode";
 
-    void Awake()
+    void OnEnable()
     {
+		// PlayerPrefs.SetInt(key + "1",0);
         for (int i = 1; i <= 33; i++)
         {
             if (PlayerPrefs.GetInt(key + i) == 1)
